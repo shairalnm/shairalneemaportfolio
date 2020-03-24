@@ -92,15 +92,15 @@ export default class Aboutme extends React.PureComponent {
                                           label="Our portfolio"
                                         /> */}
                                       </div>
-                                      <ButtonContainer>
-                                        <i class="fa fa-download" />{" "}
-                                        <a
-                                          download
-                                          href="https://github.com/shairalnm/shairalneemaportfolio/tree/master/src/Assets/ShairalNeemaResume.pdf"
-                                        >
-                                          Download Resume
-                                        </a>
-                                      </ButtonContainer>
+                                      <a
+                                        download
+                                        href="https://github.com/shairalnm/shairalneemaportfolio/tree/master/src/Assets/ShairalNeemaResume.pdf"
+                                      >
+                                        <ButtonContainer>
+                                          <i class="fa fa-download" /> Download
+                                          Resume
+                                        </ButtonContainer>
+                                      </a>
                                     </p>
                                   </div>
                                 </div>
