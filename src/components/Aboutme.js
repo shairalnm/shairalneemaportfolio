@@ -94,7 +94,7 @@ export default class Aboutme extends React.PureComponent {
                                       </div>
                                       <a
                                         download
-                                        href="https://github.com/shairalnm/shairalneemaportfolio/tree/master/src/Assets/ShairalNeemaResume.pdf"
+                                        href="https://github.com/shairalnm/shairalneemaportfolio/tree/master/src/Assets/ShairalNeemaResume.docx"
                                       >
                                         <ButtonContainer>
                                           <i class="fa fa-download" /> Download
