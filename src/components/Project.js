@@ -3,6 +3,7 @@ import {Ptile} from './ProjectTile';
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
+import { SocialIcon } from "react-social-icons";
 
 
 export default class Project extends Component {
@@ -39,12 +40,12 @@ export default class Project extends Component {
 
               <div class="row">
                 {/* Web Crawler Based HR Dashboard */}
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 p-2">
                   <div class="thumbnail">
                     <img
-                      src=".."
-                      className="img-fluid rounded mx-auto d-block col-6 "
-                      alt="image"
+                      src="../../img/WebCrawler.jpg"
+                      className="img-fluid rounded mx-auto d-block col"
+                      alt="WebCrawler"
                     />
                     <Ptile>
                       <div class="caption">
@@ -54,18 +55,23 @@ export default class Project extends Component {
                     <p>
                       A Tableau based HR dashboard project using Python and
                       Tableau that helps the HR to analyze the market, this
-                      project was done with CONTINENTAL AG as customer.{" "}
+                      project was done with CONTINENTAL AG as customer.
+                      <br />
+                      {"  "} {/* Github */}
+                      <SocialIcon url="https://github.com/shairalnm/Web-Crawler-based-Dashboard" />
+                      {"  "}
+                      <SocialIcon url="https://public.tableau.com/profile/shairal.neema#!/vizhome/WebCrawlerBasedDashboard/Dashboard2?publish=yes" />
                     </p>
                   </div>
                 </div>
 
                 {/* Phone Store */}
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 p-2">
                   <div class="thumbnail">
                     <img
-                      src=".."
-                      className="img-fluid rounded mx-auto d-block col-6 "
-                      alt="image"
+                      src="../../img/PhoneStore.jpg"
+                      className="img-fluid rounded mx-auto d-block col"
+                      alt="PhoneStore"
                     />
                     <Ptile>
                       <div class="caption">
@@ -75,15 +81,20 @@ export default class Project extends Component {
                     <p>
                       E-commerce website that helps you easily purchase phones
                       and use to Paypal to pay.
+                      <br />
+                      {"  "}
+                      <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
+                      {"  "}
+                      <SocialIcon url="https://phone-store-website.netlify.com/" />
                     </p>
                   </div>
                 </div>
                 {/* Form Visualizer */}
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 p-2">
                   <div class="thumbnail">
                     <img
-                      src=".."
-                      className="img-fluid rounded mx-auto d-block col-6 "
+                      src="../../img/Visualization.jpg"
+                      className="img-fluid rounded mx-auto d-block col "
                       alt="image"
                     />
                     <Ptile>
@@ -94,7 +105,10 @@ export default class Project extends Component {
                     <p>
                       An AWS based web application that uses a form and
                       visualizes it using MongoDB, Metabase, Angular, NodeJS, to
-                      help the professor understand his students.{" "}
+                      help the professor understand his students. <br />
+                      {/* {"  "}
+                      <SocialIcon url="" />
+                      {"  "} */}
                     </p>
                   </div>
                 </div>
@@ -102,11 +116,11 @@ export default class Project extends Component {
               {/*  */}
               <div class="row">
                 {/*Neonatal Intensive Care Unit (NICU) Follow Up */}
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 p-2">
                   <div class="thumbnail">
                     <img
-                      src=".."
-                      className="img-fluid rounded mx-auto d-block col-6 "
+                      src="../../img/NICU.jpg"
+                      className="img-fluid rounded mx-auto d-block col "
                       alt="image"
                     />
                     <Ptile>
@@ -117,15 +131,19 @@ export default class Project extends Component {
                     <p>
                       A portal that allows Neuro Developmental Assessment of a
                       newborn, followed by checkups till the age of 5 years.
+                      {/* <br />
+                      {"  "}
+                      <SocialIcon url="" />
+                      {"  "} */}
                     </p>
                   </div>
                 </div>
 
                 {/* Online Food Cart */}
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 p-2">
                   <div class="thumbnail">
                     <img
-                      src=".."
+                      src="../../img/FoodCart.jpg"
                       className="img-fluid rounded mx-auto d-block col-6 "
                       alt="image"
                     />
@@ -137,15 +155,19 @@ export default class Project extends Component {
                     <p>
                       A web application where in customers can order the food
                       items and pay online.
+                      <br />
+                      {/* {"  "}
+                      <SocialIcon url="" />
+                      {"  "} */}
                     </p>
                   </div>
                 </div>
                 {/* Lending Tree Data Analysis */}
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-4 p-2">
                   <div class="thumbnail">
                     <img
-                      src=".."
-                      className="img-fluid rounded mx-auto d-block col-6 "
+                      src="../../img/LendingTree.jpg"
+                      className="img-fluid rounded mx-auto d-block"
                       alt="image"
                     />
                     <Ptile>
@@ -154,8 +176,11 @@ export default class Project extends Component {
                       </div>
                     </Ptile>
                     <p>
-                       An Analysis based project to help LENDING TREE analyze
-                      their data using D3 and Vega.{" "}
+                      An Analysis based project to help LENDING TREE analyze
+                      their data using D3 and Vega. <br />
+                      {/* {"  "}
+                      <SocialIcon url="" />
+                      {"  "} */}
                     </p>
                   </div>
                 </div>
