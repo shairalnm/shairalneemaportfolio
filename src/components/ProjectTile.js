@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Ptile = styled.button`
          text-transform: capitalize;
-         font-size: 2.5rem;
+         font-size: 1.5rem;
          background: transparent;
          border: 0.05rem solid var(--lightBlue);
          border-color: var(--lightCyan);

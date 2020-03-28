@@ -19,6 +19,36 @@ body {
   text-transform: uppercase;
   padding-left: 3em;
   font-weight: bold;
-  /* font-size: 1em; */
-  /* color: var(--mainPink); */
+  font-size: 1em;
+  color: var(--mainPink);
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+  color: var(--mainDark) !important;
+}
+
+.card-title {
+  color: var(--mainDark) !important;
+}
+
+[class*="row"] {
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+  background: #efefef;
+  border: 1px solid #ddd;
+  padding-top: 1.75rem;
+  padding-bottom: .75rem;
+  width: 100%;
 }

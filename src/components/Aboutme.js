@@ -3,12 +3,17 @@ import styled from "styled-components";
 import { SocialIcon } from 'react-social-icons';
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
-
+import { useMediaQuery } from "react-responsive";
 
 /* const styles = { height: 400, width: "100%" };
 const icon_right = <span className="glyphicon glyphicon-chevron-right" />;
 const icon_left = <span className="glyphicon glyphicon-chevron-left" />; */
-
+/* const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
+const isBigScreen = useMediaQuery({ minDeviceWidth: 1824 });
+const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 });
+const isTabletOrMobileDevice = useMediaQuery({ maxDeviceWidth: 1224 });
+const isPortrait = useMediaQuery({ orientation: "portrait" });
+const isRetina = useMediaQuery({ minResolution: "2dppx" }); */
 
 export default class Aboutme extends React.PureComponent {
                  render() {
@@ -36,7 +41,7 @@ export default class Aboutme extends React.PureComponent {
 
                                 {/* Heading */}
                                 <div className="row">
-                                  <div className="col-10 mx-auto my-2 text-center text-title">
+                                  <div className="col mx-auto my-2 text-center text-title">
                                     <h1 className="capitalize font-weight-bold text-title-name">
                                       About me
                                     </h1>
@@ -44,7 +49,7 @@ export default class Aboutme extends React.PureComponent {
                                 </div>
 
                                 <div className="row">
-                                  <div className="col-3">
+                                  <div className="col-sm-3">
                                     <img
                                       src="../../img/shairal.jpg"
                                       className="img-fluid rounded mx-auto d-block "
@@ -111,7 +116,7 @@ export default class Aboutme extends React.PureComponent {
                                 </div>
                                 {/* Education */}
                                   <div className="row p-5">
-                                    <div className="col-3">
+                                    <div className="col">
                                     <div className="text-center">
                                       <div className="text-contact">
                                         <em>Education</em>
@@ -157,7 +162,7 @@ export default class Aboutme extends React.PureComponent {
                                 </div>
                                   {/* Work Experience */}
                                   <div className="row p-5">
-                                    <div className="col-3">
+                                    <div className="col p-5 mx-auto d-block">
                                       <div className="text-center">
                                         <div className="text-contact">
                                           <em>Work Experience</em>

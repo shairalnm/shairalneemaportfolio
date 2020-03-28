@@ -18,174 +18,148 @@ export default class Project extends Component {
                   <Link to="/">
                     <ButtonContainer>
                       Home
-                      {/* <span class="glyphicon glyphicon-chevron-right" /> */}
+                      
                     </ButtonContainer>
                   </Link>
                   <Link to="/aboutme">
                     <ButtonContainer>
-                      Know More about me
-                      {/* <span class="glyphicon glyphicon-chevron-right" /> */}
+                      Know More about me                      
                     </ButtonContainer>
                   </Link>
                 </div>
               </nav>
               {/* Heading */}
               <div className="row">
-                <div className="col-10 mx-auto p-5 my-2 text-center text-title">
+                <div className="col mx-auto p-5 my-2 text-center text-title">
                   <h1 className="capitalize font-weight-bold text-title-name">
                     Projects
                   </h1>
                 </div>
               </div>
 
-              <div class="row">
-                {/* Web Crawler Based HR Dashboard */}
-                <div class="col-sm-6 col-md-4 p-2">
-                  <div class="thumbnail">
-                    <img
-                      src="../../img/WebCrawler.jpg"
-                      className="img-fluid rounded mx-auto d-block col"
-                      alt="WebCrawler"
-                    />
-                    <Ptile>
-                      <div class="caption">
-                        <h3>Web Crawler Based HR Dashboard</h3>
-                      </div>
-                    </Ptile>
-                    <p>
-                      A Tableau based HR dashboard project using Python and
-                      Tableau that helps the HR to analyze the market, this
-                      project was done with CONTINENTAL AG as customer.
-                      <br />
-                      {"  "} {/* Github */}
-                      <SocialIcon url="https://github.com/shairalnm/Web-Crawler-based-Dashboard" />
-                      {"  "}
-                      <SocialIcon url="https://public.tableau.com/profile/shairal.neema#!/vizhome/WebCrawlerBasedDashboard/Dashboard2?publish=yes" />
-                    </p>
-                  </div>
-                </div>
 
-                {/* Phone Store */}
-                <div class="col-sm-6 col-md-4 p-2">
-                  <div class="thumbnail">
-                    <img
-                      src="../../img/PhoneStore.jpg"
-                      className="img-fluid rounded mx-auto d-block col"
-                      alt="PhoneStore"
-                    />
-                    <Ptile>
-                      <div class="caption">
-                        <h3>Phone Store</h3>
-                      </div>
-                    </Ptile>
-                    <p>
-                      E-commerce website that helps you easily purchase phones
-                      and use to Paypal to pay.
-                      <br />
-                      {"  "}
-                      <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
-                      {"  "}
-                      <SocialIcon url="https://phone-store-website.netlify.com/" />
-                    </p>
-                  </div>
-                </div>
-                {/* Form Visualizer */}
-                <div class="col-sm-6 col-md-4 p-2">
-                  <div class="thumbnail">
-                    <img
-                      src="../../img/Visualization.jpg"
-                      className="img-fluid rounded mx-auto d-block col "
-                      alt="image"
-                    />
-                    <Ptile>
-                      <div class="caption">
-                        <h3>Form Visualizer</h3>
-                      </div>
-                    </Ptile>
-                    <p>
-                      An AWS based web application that uses a form and
-                      visualizes it using MongoDB, Metabase, Angular, NodeJS, to
-                      help the professor understand his students. <br />
-                      {/* {"  "}
-                      <SocialIcon url="" />
-                      {"  "} */}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*  */}
-              <div class="row">
-                {/*Neonatal Intensive Care Unit (NICU) Follow Up */}
-                <div class="col-sm-6 col-md-4 p-2">
-                  <div class="thumbnail">
-                    <img
-                      src="../../img/NICU.jpg"
-                      className="img-fluid rounded mx-auto d-block col "
-                      alt="image"
-                    />
-                    <Ptile>
-                      <div class="caption">
-                        <h3>Neonatal Intensive Care Unit (NICU) Follow Up</h3>
-                      </div>
-                    </Ptile>
-                    <p>
-                      A portal that allows Neuro Developmental Assessment of a
-                      newborn, followed by checkups till the age of 5 years.
-                      {/* <br />
-                      {"  "}
-                      <SocialIcon url="" />
-                      {"  "} */}
-                    </p>
-                  </div>
-                </div>
 
-                {/* Online Food Cart */}
-                <div class="col-sm-6 col-md-4 p-2">
-                  <div class="thumbnail">
-                    <img
-                      src="../../img/FoodCart.jpg"
-                      className="img-fluid rounded mx-auto d-block col-6 "
-                      alt="image"
-                    />
-                    <Ptile>
-                      <div class="caption">
-                        <h3>Online Food Cart</h3>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="card-deck">
+                    {/* Web Crawler Based HR Dashboard */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block " src="../../img/WebCrawler.jpg" alt="Card image cap"/>
+                        <div class="card-block">
+                        <Ptile>Web Crawler Based HR Dashboard</Ptile>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">
+                            <small class="text-muted">
+                            <br />
+                            {"  "} {/* Github */}
+                            <SocialIcon url="https://github.com/shairalnm/Web-Crawler-based-Dashboard" className=""/>
+                            {"  "}
+                            <SocialIcon url="https://public.tableau.com/profile/shairal.neema#!/vizhome/WebCrawlerBasedDashboard/Dashboard2?publish=yes" />
+                            
+                            </small>
+                            </p>
+                        </div>
                       </div>
-                    </Ptile>
-                    <p>
-                      A web application where in customers can order the food
-                      items and pay online.
-                      <br />
-                      {/* {"  "}
-                      <SocialIcon url="" />
-                      {"  "} */}
-                    </p>
+                    {/* End of Web Crawler Based HR Dashboard  */}
+                    {/* Phone Store */}
+                      <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/PhoneStore.jpg" alt="Card image cap"/>
+                          <div class="card-block">
+                        <Ptile>Phone Store</Ptile>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted"><br />
+                          {"  "}
+                          <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
+                          {"  "}
+                          <SocialIcon url="https://phone-store-website.netlify.com/" /></small></p>
+                          </div>
+                        </div>
+                    {/* End of Phone Store */}
+                    {/* Form Visualizer */}
+                        <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/Visualization.jpg" alt="Card image cap"/>
+                            <div class="card-block">
+                        <Ptile>Form Visualizer</Ptile>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                              <p class="card-text">
+                                <small class="text-muted">
+                            <br />
+                            {"  "}
+                           {/*  <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
+                            {"  "}
+                            <SocialIcon url="https://phone-store-website.netlify.com/" /> */}
+                                </small>
+                                </p>
+                            </div>
+                          </div>
+                    {/* End of Form Visualizer */}
+                    
+                        </div>
+                      </div>
+                      {/* End of 1st Row */}
+
+
+
+
+                      {/* Start of 2nd Row */}
+                <div class="row">
+                  <div class="card-deck">
+                    {/* Neonatal Intensive Care Unit (NICU) Follow Up */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/NICU.jpg" alt="Card image cap" />
+                      <div class="card-block">
+                        <Ptile>Neonatal Intensive Care Unit (NICU) Follow Up</Ptile>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">
+                          <small class="text-muted">
+                            <br />
+                            {"  "} {/* Github */}
+                           {/*  <SocialIcon url="https://github.com/shairalnm/Web-Crawler-based-Dashboard" />
+                            {"  "}
+                            <SocialIcon url="https://public.tableau.com/profile/shairal.neema#!/vizhome/WebCrawlerBasedDashboard/Dashboard2?publish=yes" /> */}
+
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                    {/* End of Web Crawler Based HR Dashboard  */}
+                    {/* Online Food Cart */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/FoodCart.jpg" alt="Card image cap" />
+                      <div class="card-block">
+                        <Ptile>Online Food Cart</Ptile>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        {/* <p class="card-text"><small class="text-muted"><br />
+                          {"  "}
+                          <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
+                          {"  "}
+                          <SocialIcon url="https://phone-store-website.netlify.com/" /></small></p> */}
+                      </div>
+                    </div>
+                    {/* End of Online Food Cart */}
+                    {/* Lending Tree Data Analysis */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/LendingTree.jpg" alt="Card image cap" />
+                      <div class="card-block">
+                        <Ptile>Lending Tree Data Analysis</Ptile>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        {/* <p class="card-text">
+                          <small class="text-muted">
+                            <br />
+                            {"  "}
+                            <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
+                            {"  "}
+                            <SocialIcon url="https://phone-store-website.netlify.com/" />
+                          </small>
+                        </p> */}
+                      </div>
+                    </div>
+                    {/* End of Lending Tree Data Analysis */}
+
                   </div>
                 </div>
-                {/* Lending Tree Data Analysis */}
-                <div class="col-sm-6 col-md-4 p-2">
-                  <div class="thumbnail">
-                    <img
-                      src="../../img/LendingTree.jpg"
-                      className="img-fluid rounded mx-auto d-block"
-                      alt="image"
-                    />
-                    <Ptile>
-                      <div class="caption">
-                        <h3>Lending Tree Data Analysis</h3>
-                      </div>
-                    </Ptile>
-                    <p>
-                      An Analysis based project to help LENDING TREE analyze
-                      their data using D3 and Vega. <br />
-                      {/* {"  "}
-                      <SocialIcon url="" />
-                      {"  "} */}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* x */}
+                {/* End of 2nd Row */}
+                    </div>            
             </div>
           </div>
         </TextWrapper>
@@ -196,6 +170,7 @@ export default class Project extends Component {
 const TextWrapper = styled.nav`
   font-family: "Permanent Marker", cursive;
   padding-left: 3em;
+  background: var(--mainGray) !important;
   font-weight: 50px;
   .text-contact {
     color: var(--lightCyan);
@@ -203,8 +178,9 @@ const TextWrapper = styled.nav`
   }
   .text-title-name {
     font-size: 4em;
+    background: var(--mainGray) !important;
     padding-left: 0.4em;
-    color: var(--mainPink) !important;
+    color: var(--mainPink);
   }
 `;
 
