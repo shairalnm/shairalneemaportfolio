@@ -5,15 +5,6 @@ import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
 import { useMediaQuery } from "react-responsive";
 
-/* const styles = { height: 400, width: "100%" };
-const icon_right = <span className="glyphicon glyphicon-chevron-right" />;
-const icon_left = <span className="glyphicon glyphicon-chevron-left" />; */
-/* const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
-const isBigScreen = useMediaQuery({ minDeviceWidth: 1824 });
-const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 });
-const isTabletOrMobileDevice = useMediaQuery({ maxDeviceWidth: 1224 });
-const isPortrait = useMediaQuery({ orientation: "portrait" });
-const isRetina = useMediaQuery({ minResolution: "2dppx" }); */
 
 export default class Aboutme extends React.PureComponent {
                  render() {
@@ -27,13 +18,13 @@ export default class Aboutme extends React.PureComponent {
                                     <Link to="/">
                                       <ButtonContainer>
                                         Home
-                                        {/* <span class="glyphicon glyphicon-chevron-right" /> */}
+                                        
                                       </ButtonContainer>
                                     </Link>
                                     <Link to="/project">
                                       <ButtonContainer>
                                         View my work
-                                        {/* <span class="glyphicon glyphicon-chevron-right" /> */}
+                                        
                                       </ButtonContainer>
                                     </Link>
                                   </div>
@@ -49,16 +40,19 @@ export default class Aboutme extends React.PureComponent {
                                 </div>
 
                                 <div className="row">
-                                  <div className="col-sm-3">
-                                    <img
+                                  <div className="col">
+                                      
+                                      <img
                                       src="../../img/shairal.jpg"
-                                      className="img-fluid rounded mx-auto d-block "
+                                          className=" img-style rounded mx-auto d-block "
                                       alt="Shairal Neema"
-                                    />
-                                  </div>
+                                        />
+                                   
+                                  </div> 
+                                    
                                   <div className="col ">
                                     <p>
-                                      <div className="text-center">
+                                      <div className="text-centre">
                                         <div className="text-contact">
                                           <em>Shairal Neema</em>
                                           <br />
@@ -75,11 +69,8 @@ export default class Aboutme extends React.PureComponent {
                                           <SocialIcon url="https://www.linkedin.com/in/shairal-neema-932227b2/" />
                                           {"  "} {/* Github */}
                                           <SocialIcon url="https://github.com/shairalnm" />
-                                          {/* Mail */}
-                                          {/* <SocialIcon
-                                          url="shairalneema.com"
-                                          label="Our portfolio"
-                                        /> */}
+                                         
+                                          
                                         </div>
                                         <a
                                           download
@@ -93,10 +84,7 @@ export default class Aboutme extends React.PureComponent {
                                       </div>
                                   </div>
                                   </div>
-                                      {/* <div className="p-4 text-center">
-                                        Master's of Science in Information
-                                        Technology
-                                      </div> */}
+                                     
                                     <div className="row">
                                       <div className="col p-6 mt-5">
                                       <div className="text-justified text-center">
@@ -137,12 +125,13 @@ export default class Aboutme extends React.PureComponent {
                                             <h3>University of North Carolina at Charlotte</h3>
                                           </div>
                                         </Ptile>
-                                        <p>
+                                        <p className="text-color-dark">
                                           Master's of Science in Information Technology
                                         </p>
                                         </div>
                                       </div>
-                                    <div class="col-sm-6 col-md-4 p-2">
+                                      
+                                    <div class="col-sm-6 col-md-4 p-2 ">
                                       <div class="thumbnail">
                                         <img
                                           src="../../img/MPSTME.jpg"
@@ -154,7 +143,7 @@ export default class Aboutme extends React.PureComponent {
                                           <h3>NMIMS's Mukesh Patel School of Technology, Management and Engineering</h3>
                                         </div>
                                         </Ptile>
-                                        <p>
+                                        <p className="text-color-dark">
                                           Bachelors of Technology in Computer Science
                                         </p>
                                       </div>
@@ -178,6 +167,17 @@ export default class Aboutme extends React.PureComponent {
                                           <div class="caption">
                                             <h3>E4 Carolinas</h3>
                                           </div>
+                                          <div>
+                                            <p>
+                                              <ul className="list-group list-group-flush text-color-dark">
+                                                <li className="list-group-item">Built Architecture for 2 projects while designing the scope of the project.</li>
+                                                <li className="list-group-item">Work with developers and database administrators to transform data models from logical to physical.</li>
+                                                <li className="list-group-item">Effectively perform root cause analysis of issues and report the outcome to business community and Management.</li>
+                                                <li className="list-group-item">Work with the Database Administration team to develop and enhance database standards.</li>
+                                                <li className="list-group-item">Developed website using JavaScript to ease the performance.</li>
+                                              </ul>
+                                            </p>
+                                          </div>
                                         </Ptile>
                                         <p>
                                           
@@ -192,7 +192,19 @@ export default class Aboutme extends React.PureComponent {
                                             <h3>Diaspark Private Limited</h3>
                                           </div>
                                         </Ptile>
-                                      
+                                        <div>
+                                          <p>
+                                            <ul className="list-group list-group-flush text-color-dark">
+                                              <li className="list-group-item">Performed the front-end part for the web application using HTML, CSS and JavaScript, using Visual Studio for working with ASP .Net and C#. </li>
+                                              <li className="list-group-item">Worked on Database creation, schema design and stored procedures in MS-SQL.</li>
+                                              <li className="list-group-item">Implemented test cases for performing unit testing on the project.
+                                              </li>
+                                            </ul>
+                                          </p>
+                                        </div>
+
+
+  
                                       </div>
                                     </div>
                                   </div>
@@ -208,7 +220,10 @@ export default class Aboutme extends React.PureComponent {
 const TextWrapper = styled.nav`
   font-family: "Permanent Marker", cursive;
   padding-left: 1.3em;
-  font-size: 1.5em;
+  font-size: 1em;
+  .text-color-dark{
+    color: var(--mainDark);
+  }
   .text-contact {
     color: var(--lightCyan);
     font-size: 2em;
@@ -225,7 +240,16 @@ const TextWrapper = styled.nav`
   a:hover {
     color: var(--mainWhite);
   }
+  .img-style{
+    height:250px;
+width:200px;
+background: transparent;
+border: no-border;
+  }
 `;
+
+
+
 const Ptile = styled.button`
          
          font-size: 1em;

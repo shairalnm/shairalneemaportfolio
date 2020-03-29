@@ -6,7 +6,10 @@ export const Ptile = styled.button`
          background: transparent;
          border: 0.05rem solid var(--lightBlue);
          border-color: var(--lightCyan);
-         color: var(--lightCyan);
+         .tilecolor{
+           color: var(--lightCyan);
+        }
+        color: var(--mainDark) !important;
          border-radius: 0.5rem;
          padding: 0.2rem 0.5rem;
          cursor: pointer;
