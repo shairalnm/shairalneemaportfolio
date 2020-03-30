@@ -31,13 +31,13 @@ export default class Aboutme extends React.PureComponent {
                                 </nav>
 
                                 {/* Heading */}
-                                <div className="row">
-                                  <div className="col mx-auto my-2 text-center text-title">
-                                    <h1 className="capitalize font-weight-bold text-title-name">
-                                      About me
-                                    </h1>
+                                  <div className="row">
+                                    <div className="col mx-auto p-5 my-2 text-center text-title">
+                                      <h1 className="capitalize font-weight-bold text-title-name">
+                                        About me
+                  </h1>
+                                    </div>
                                   </div>
-                                </div>
 
                                 <div className="row">
                                   <div className="col">
@@ -57,9 +57,11 @@ export default class Aboutme extends React.PureComponent {
                                           <em>Shairal Neema</em>
                                           <br />
                                         </div>
+                                          <p className="font-size-content">
                                         +1(704)-236-4308
                                         <br />
                                         shairalnm@gmail.com
+                                        </p>
                                       </div>                                      
                                       </p>
                                       <div className="col pl-10 mt-2 ml-10 justified">
@@ -88,7 +90,7 @@ export default class Aboutme extends React.PureComponent {
                                     <div className="row">
                                       <div className="col p-6 mt-5">
                                       <div className="text-justified text-center">
-                                        <p>
+                                        <p className="font-size-content">
                                           Accomplished graduate student with 1.5
                                           years of industry software development
                                           and engineering experience with
@@ -120,11 +122,11 @@ export default class Aboutme extends React.PureComponent {
                                             className="img-fluid rounded mx-auto d-block col"
                                             alt="UNCC"
                                           />                                        
-                                          <Ptile>
+                                        <div className="card-caption text-center">
                                           <div class="caption">
                                             <h3>University of North Carolina at Charlotte</h3>
                                           </div>
-                                        </Ptile>
+                                        </div>
                                         <p className="text-color-dark">
                                           Master's of Science in Information Technology
                                         </p>
@@ -138,11 +140,11 @@ export default class Aboutme extends React.PureComponent {
                                           className="img-fluid rounded mx-auto d-block col-6"
                                           alt="MPSTME"
                                         />
-                                        <Ptile>
+                                        <div className="card-caption text-center">
                                         <div class="caption">
                                           <h3>NMIMS's Mukesh Patel School of Technology, Management and Engineering</h3>
                                         </div>
-                                        </Ptile>
+                                        </div>
                                         <p className="text-color-dark">
                                           Bachelors of Technology in Computer Science
                                         </p>
@@ -150,8 +152,8 @@ export default class Aboutme extends React.PureComponent {
                                     </div>
                                 </div>
                                   {/* Work Experience */}
-                                  <div className="row p-5">
-                                    <div className="col p-5 mx-auto d-block">
+                                  <div className="row">
+                                    <div className="col mx-auto d-block">
                                       <div className="text-center">
                                         <div className="text-contact">
                                           <em>Work Experience</em>
@@ -163,9 +165,10 @@ export default class Aboutme extends React.PureComponent {
                                     <div class="col-sm-6 col-md-4 p-2">
                                       <div class="thumbnail">
                                        
-                                        <Ptile>
+                                        <div className="card-caption text-center">
                                           <div class="caption">
                                             <h3>E4 Carolinas</h3>
+                                          </div>
                                           </div>
                                           <div>
                                             <p>
@@ -178,7 +181,7 @@ export default class Aboutme extends React.PureComponent {
                                               </ul>
                                             </p>
                                           </div>
-                                        </Ptile>
+                                        
                                         <p>
                                           
                                         </p>
@@ -187,11 +190,11 @@ export default class Aboutme extends React.PureComponent {
                                     <div class="col-sm-6 col-md-4 p-2">
                                       <div class="thumbnail">
                                         
-                                        <Ptile>
+                                        <div className="card-caption text-center">
                                           <div class="caption">
                                             <h3>Diaspark Private Limited</h3>
                                           </div>
-                                        </Ptile>
+                                        </div>
                                         <div>
                                           <p>
                                             <ul className="list-group list-group-flush text-color-dark">
@@ -218,20 +221,35 @@ export default class Aboutme extends React.PureComponent {
                }
 
 const TextWrapper = styled.nav`
-  font-family: "Permanent Marker", cursive;
-  padding-left: 1.3em;
-  font-size: 1em;
+  font-family: 'Shadows Into Light',cursive;
+  padding-left: 3em;
+  
+  background: var(--mainGray) !important;
+  color:var(--mainWhite) !important;
   .text-color-dark{
+    color: var(--mainDark);
+    font-family: 'Gotu',sans-serif;
+  }
+  .font-size-content{
+    font-size:1.5rem;
+  }
+  .card-caption{
+    font-size: 1.5rem;
+    background: transparent;
+    font-weight:bold;
     color: var(--mainDark);
   }
   .text-contact {
     color: var(--lightCyan);
-    font-size: 2em;
+    font-size: 3em;
+     font-family: 'Gotu',
+    sans-serif;
   }
   .text-title-name {
-    font-size: 3em;
+    font-size: 4em;
+    background: var(--mainGray) !important;
     padding-left: 0.4em;
-    color: var(--mainPink) !important;
+    color: var(--mainPink);
   }
   a {
     text-decoration: none;
@@ -241,8 +259,8 @@ const TextWrapper = styled.nav`
     color: var(--mainWhite);
   }
   .img-style{
-    height:250px;
-width:200px;
+    height:350px;
+    width:200px;
 background: transparent;
 border: no-border;
   }

@@ -6,6 +6,21 @@
   --mainPink: #E31B6D;
 }
 
+
+
+/* font-family: 'Gotu',
+sans-serif;
+
+font-family: 'Shadows Into Light',
+cursive;
+
+font-family: 'Oswald',
+sans-serif;
+
+font-family: 'Baloo Thambi 2',
+cursive; */
+
+
 body {
   font-family: 'Oswald', sans-serif !important;
   background: var(--mainGray) !important;
@@ -14,7 +29,7 @@ body {
 }
 
 .text-title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Baloo Thambi 2', cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   padding-left: 3em;
@@ -34,10 +49,14 @@ body {
 
 .card-text {
   color: var(--mainDark) !important;
+  font-family: 'Gotu',
+    sans-serif;
 }
 
 .card-title {
   color: var(--mainDark) !important;
+  font-family: 'Shadows Into Light',
+    cursive;
 }
 
 [class*="row"] {

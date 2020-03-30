@@ -46,7 +46,9 @@ export default class Project extends Component {
                     <div class="card">
                       <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block " src="../../img/WebCrawler.jpg" alt="Card image cap"/>
                         <div class="card-block">
-                        <Ptile>Web Crawler Based HR Dashboard</Ptile>
+                        <div className="card-caption">
+                          Web Crawler Based HR Dashboard
+                        </div>
                           <p class="card-text">A dashboard to help the HR executives easily locate job seeking candidates and view the insights of job market.</p>
                           <p class="card-text">
                             <small class="text-muted">
@@ -65,7 +67,7 @@ export default class Project extends Component {
                       <div class="card">
                       <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/PhoneStore.jpg" alt="Card image cap"/>
                           <div class="card-block">
-                        <Ptile>Phone Store</Ptile>
+                        <div className="card-caption">Phone Store</div>
                             <p class="card-text">An Ecommerce website for purchasing of used phones at cheaper price.</p>
                         <p class="card-text"><small class="text-muted"><br />
                           {"  "}
@@ -78,8 +80,8 @@ export default class Project extends Component {
                     {/* Form Visualizer */}
                         <div class="card">
                       <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/Visualization.jpg" alt="Card image cap"/>
-                            <div class="card-block">
-                        <Ptile>Form Visualizer</Ptile>
+                            <div class="card-block card-title">
+                        <div className="card-caption">Form Visualizer</div>
                         <p class="card-text">An AWS based web application that uses a form and visualizes it using MongoDB, Metabase, Angular, NodeJS, to help the professor understand his students.</p>
                               <p class="card-text">
                                 <small class="text-muted">
@@ -108,7 +110,7 @@ export default class Project extends Component {
                     <div class="card">
                       <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/NICU.jpg" alt="Card image cap" />
                       <div class="card-block">
-                        <Ptile>Neonatal Intensive Care Unit (NICU) Follow Up</Ptile>
+                        <div className="card-caption">Neonatal Intensive Care Unit (NICU) Follow Up</div>
                         <p class="card-text">
                           A portal that allows Neuro Developmental Assessment of a newborn, followed by checkups till the age of 5 years.</p>
                         <p class="card-text">
@@ -128,7 +130,7 @@ export default class Project extends Component {
                     <div class="card">
                       <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/FoodCart.jpg" alt="Card image cap" />
                       <div class="card-block">
-                        <Ptile>Online Food Cart</Ptile>
+                        <div className="card-caption">Online Food Cart</div>
                         <p class="card-text">A web application where in customers can order the food items and pay online.</p>
                         {/* <p class="card-text"><small class="text-muted"><br />
                           {"  "}
@@ -142,7 +144,7 @@ export default class Project extends Component {
                     <div class="card">
                       <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/LendingTree.jpg" alt="Card image cap" />
                       <div class="card-block">
-                        <Ptile>Lending Tree Data Analysis</Ptile>
+                        <div className="card-caption">Lending Tree Data Analysis</div>
                         <p class="card-text">An Analysis based project to help LENDING TREE analyze their data using D3 and Vega.  </p>
                         {/* <p class="card-text">
                           <small class="text-muted">
@@ -169,14 +171,20 @@ export default class Project extends Component {
   }
 }
 const TextWrapper = styled.nav`
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Shadows Into Light',cursive;
   padding-left: 3em;
   background: var(--mainGray) !important;
-  font-weight: 50px;
+  color:var(--mainDark) !important;
+  .card-caption{
+    font-size: 1.5rem;
+    background: transparent;
+    font-weight:bold;
+  }
   .text-contact {
     color: var(--lightCyan);
     font-size: 2em;
   }
+
   .text-title-name {
     font-size: 4em;
     background: var(--mainGray) !important;
