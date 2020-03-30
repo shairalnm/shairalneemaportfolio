@@ -54,13 +54,16 @@ export default class Aboutme extends React.PureComponent {
                                     <p>
                                       <div className="text-centre">
                                         <div className="text-contact">
-                                          <em>Shairal Neema</em>
+                                          Shairal Neema
                                           <br />
                                         </div>
                                           <p className="font-size-content">
-                                        +1(704)-236-4308
+                                        <i class="fas fa-phone"/>+1(704)-236-4308
                                         <br />
-                                        shairalnm@gmail.com
+                                            <i class="far fa-envelope-open"/>
+                                            
+                                              shairalnm@gmail.com
+                                            
                                         </p>
                                       </div>                                      
                                       </p>
@@ -109,7 +112,7 @@ export default class Aboutme extends React.PureComponent {
                                     <div className="col">
                                     <div className="text-center">
                                       <div className="text-contact">
-                                        <em>Education</em>
+                                        Education
                                         <br />
                                       </div>
                                   </div>
@@ -156,7 +159,7 @@ export default class Aboutme extends React.PureComponent {
                                     <div className="col mx-auto d-block">
                                       <div className="text-center">
                                         <div className="text-contact">
-                                          <em>Work Experience</em>
+                                          Work Experience
                                           <br />
                                         </div>
                                       </div>
@@ -205,13 +208,10 @@ export default class Aboutme extends React.PureComponent {
                                             </ul>
                                           </p>
                                         </div>
-
-
-  
                                       </div>
                                     </div>
                                   </div>
-{/*  */}
+                                {/*  */}
                               </div>
                             </div>
                           </TextWrapper>
@@ -221,14 +221,16 @@ export default class Aboutme extends React.PureComponent {
                }
 
 const TextWrapper = styled.nav`
-  font-family: 'Shadows Into Light',cursive;
-  padding-left: 3em;
   
+  padding-left: 3em;
+  font-family: 'Gotu',sans-serif;
   background: var(--mainGray) !important;
   color:var(--mainWhite) !important;
-  .text-color-dark{
-    color: var(--mainDark);
-    font-family: 'Gotu',sans-serif;
+  i {
+  margin-right: 10px;
+}
+  .list-group-item{
+    background:var(--mainGray) !important;
   }
   .font-size-content{
     font-size:1.5rem;
@@ -237,7 +239,7 @@ const TextWrapper = styled.nav`
     font-size: 1.5rem;
     background: transparent;
     font-weight:bold;
-    color: var(--mainDark);
+    color: var(--mainWhite);
   }
   .text-contact {
     color: var(--lightCyan);

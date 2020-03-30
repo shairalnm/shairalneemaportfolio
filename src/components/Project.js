@@ -171,20 +171,23 @@ export default class Project extends Component {
   }
 }
 const TextWrapper = styled.nav`
-  font-family: 'Shadows Into Light',cursive;
+  font-family: 'Gotu',sans-serif;
   padding-left: 3em;
   background: var(--mainGray) !important;
-  color:var(--mainDark) !important;
+  color:var(--mainWhite) !important;
   .card-caption{
     font-size: 1.5rem;
     background: transparent;
     font-weight:bold;
+    background: var(--mainGray) !important;
   }
   .text-contact {
     color: var(--lightCyan);
     font-size: 2em;
   }
-
+  .card{
+    background: var(--mainGray) !important;
+  }
   .text-title-name {
     font-size: 4em;
     background: var(--mainGray) !important;
@@ -193,11 +196,3 @@ const TextWrapper = styled.nav`
   }
 `;
 
-const ImgContainer = styled.div`
-  position: relative;
-  flex-basis: 100%;
-  flex-basis: calc(33.333% - 20px);
-  margin: 10px;
-  cursor: pointer;
-  transition: 0.5s all ease-in;
-`;

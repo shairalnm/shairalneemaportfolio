@@ -4,6 +4,8 @@ export const Ptile = styled.button`
          text-transform: capitalize;
          font-size: 1.5rem;
          background: transparent;
+         font-family: 'Gotu',
+    sans-serif;
          border: 0.05rem solid var(--lightBlue);
          border-color: var(--lightCyan);
          .tilecolor{
