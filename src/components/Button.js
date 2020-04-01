@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const ButtonContainer = styled.button`
   text-transform: capitalize;
   font-size: 1.4rem;
+  letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif !important;
   background: transparent;
   border: 0.05rem solid var(--lightBlue);
@@ -17,6 +18,7 @@ export const ButtonContainer = styled.button`
   &:hover{
     background: var(--lightCyan);
     color: var(--mainWhite);
+    
   }
   &focus{
     outline: none;

@@ -42,9 +42,33 @@ export default class Project extends Component {
               <div class="container-fluid">
                 <div class="row">
                   <div class="card-deck">
+
+                    {/* Karigari */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block " src="../../img/Karigari.jpg" alt="Card image cap" />
+                      <div class="card-block">
+                        <div className="card-caption">
+                          Karigari
+                        </div>
+                        <p class="card-text">A Jewelry selling Mobile based application designed to ease the purchasing. </p>
+                        <p class="card-text">
+                          <small class="text-muted">
+                            <br />
+                            {"  "} {/* Github */}
+                            {/* <SocialIcon url="" className="" /> */}
+                            {"  "}
+                            <SocialIcon url="https://play.google.com/store/apps/details?id=com.geniusv.karigari&hl=en_US" />
+
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                    {/* End of Karigari  */}
+
+
                     {/* Web Crawler Based HR Dashboard */}
                     <div class="card">
-                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block " src="../../img/WebCrawler.jpg" alt="Card image cap"/>
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block " src="../../img/WebCrawler.jpg" alt="Card image cap"/>
                         <div class="card-block">
                         <div className="card-caption">
                           Web Crawler Based HR Dashboard
@@ -65,7 +89,7 @@ export default class Project extends Component {
                     {/* End of Web Crawler Based HR Dashboard  */}
                     {/* Phone Store */}
                       <div class="card">
-                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/PhoneStore.jpg" alt="Card image cap"/>
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block" src="../../img/PhoneStore.jpg" alt="Card image cap"/>
                           <div class="card-block">
                         <div className="card-caption">Phone Store</div>
                             <p class="card-text">An Ecommerce website for purchasing of used phones at cheaper price.</p>
@@ -77,24 +101,6 @@ export default class Project extends Component {
                           </div>
                         </div>
                     {/* End of Phone Store */}
-                    {/* Form Visualizer */}
-                        <div class="card">
-                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/Visualization.jpg" alt="Card image cap"/>
-                            <div class="card-block card-title">
-                        <div className="card-caption">Form Visualizer</div>
-                        <p class="card-text">An AWS based web application that uses a form and visualizes it using MongoDB, Metabase, Angular, NodeJS, to help the professor understand his students.</p>
-                              <p class="card-text">
-                                <small class="text-muted">
-                            <br />
-                            {"  "}
-                           {/*  <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
-                            {"  "}
-                            <SocialIcon url="https://phone-store-website.netlify.com/" /> */}
-                                </small>
-                                </p>
-                            </div>
-                          </div>
-                    {/* End of Form Visualizer */}
                     
                         </div>
                       </div>
@@ -106,9 +112,77 @@ export default class Project extends Component {
                       {/* Start of 2nd Row */}
                 <div class="row">
                   <div class="card-deck">
+
+                    {/* Online Pharmacy Management System */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block " src="../../img/Pharmacy.jpg" alt="Card image cap" />
+                      <div class="card-block">
+                        <div className="card-caption">
+                          Online Pharmacy Management System
+                        </div>
+                        <p class="card-text">A web based application deisgned in java for the purchasing of Medicines without the hassle of stepping out when you are sick. </p>
+                        <p class="card-text">
+                          <small class="text-muted">
+                            <br />
+                            {"  "} {/* Github */}
+                            {/* <SocialIcon url="" className="" /> */}
+                            {"  "}
+                            <SocialIcon url="https://github.com/shairalnm/Online-Pharmacy-Management" />
+
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                    {/* End of Online Pharmacy Management System  */}
+                    {/* Form Visualizer */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block" src="../../img/Visualization.jpg" alt="Card image cap" />
+                      <div class="card-block card-title">
+                        <div className="card-caption">Form Visualizer</div>
+                        <p class="card-text">An AWS based web application that uses a form and visualizes it using MongoDB, Metabase, Angular, NodeJS, to help the professor understand his students.</p>
+                        <p class="card-text">
+                          <small class="text-muted">
+                            <br />
+                            {"  "}
+                            {/*  <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
+                            {"  "}
+                            <SocialIcon url="https://phone-store-website.netlify.com/" /> */}
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                    {/* End of Form Visualizer */}
+
+                   
+                    {/* Lending Tree Data Analysis */}
+                    <div class="card">
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block" src="../../img/LendingTree.jpg" alt="Card image cap" />
+                      <div class="card-block">
+                        <div className="card-caption">Lending Tree Data Analysis</div>
+                        <p class="card-text">An Analysis based project to help LENDING TREE analyze their data using D3 and Vega.  </p>
+                        <p class="card-text">
+                          <small class="text-muted">
+                            <br />
+                            {"  "}
+                            <SocialIcon url="https://github.com/shairalnm/FinalProjectVA" />
+                            {/* {"  "}
+                            <SocialIcon url="https://phone-store-website.netlify.com/" /> */}
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                    {/* End of Lending Tree Data Analysis */}
+
+                  </div>
+                </div>
+                {/* End of 2nd Row */}
+
+                {/* Start of 3rd row */}               
+                <div class="row">
+                  <div class="card-deck">
                     {/* Neonatal Intensive Care Unit (NICU) Follow Up */}
                     <div class="card">
-                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/NICU.jpg" alt="Card image cap" />
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block" src="../../img/NICU.jpg" alt="Card image cap" />
                       <div class="card-block">
                         <div className="card-caption">Neonatal Intensive Care Unit (NICU) Follow Up</div>
                         <p class="card-text">
@@ -117,7 +191,7 @@ export default class Project extends Component {
                           <small class="text-muted">
                             <br />
                             {"  "} {/* Github */}
-                           {/*  <SocialIcon url="https://github.com/shairalnm/Web-Crawler-based-Dashboard" />
+                            {/*  <SocialIcon url="https://github.com/shairalnm/Web-Crawler-based-Dashboard" />
                             {"  "}
                             <SocialIcon url="https://public.tableau.com/profile/shairal.neema#!/vizhome/WebCrawlerBasedDashboard/Dashboard2?publish=yes" /> */}
 
@@ -125,10 +199,10 @@ export default class Project extends Component {
                         </p>
                       </div>
                     </div>
-                    {/* End of Web Crawler Based HR Dashboard  */}
+                    {/* End of Neonatal Intensive Care Unit (NICU) Follow Up  */}
                     {/* Online Food Cart */}
                     <div class="card">
-                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/FoodCart.jpg" alt="Card image cap" />
+                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail img-fluid mx-auto d-block" src="../../img/FoodCart.jpg" alt="Card image cap" />
                       <div class="card-block">
                         <div className="card-caption">Online Food Cart</div>
                         <p class="card-text">A web application where in customers can order the food items and pay online.</p>
@@ -140,28 +214,16 @@ export default class Project extends Component {
                       </div>
                     </div>
                     {/* End of Online Food Cart */}
-                    {/* Lending Tree Data Analysis */}
-                    <div class="card">
-                      <img class="card-img-top p-1 rounded border border-secondary img-thumbnail mx-auto d-block" src="../../img/LendingTree.jpg" alt="Card image cap" />
-                      <div class="card-block">
-                        <div className="card-caption">Lending Tree Data Analysis</div>
-                        <p class="card-text">An Analysis based project to help LENDING TREE analyze their data using D3 and Vega.  </p>
-                        {/* <p class="card-text">
-                          <small class="text-muted">
-                            <br />
-                            {"  "}
-                            <SocialIcon url="https://github.com/shairalnm/E-commerce-website" />
-                            {"  "}
-                            <SocialIcon url="https://phone-store-website.netlify.com/" />
-                          </small>
-                        </p> */}
-                      </div>
-                    </div>
-                    {/* End of Lending Tree Data Analysis */}
-
+                    
                   </div>
                 </div>
-                {/* End of 2nd Row */}
+                {/* End of 3rd Row */}
+
+
+
+
+
+
                     </div>            
             </div>
           </div>
@@ -180,6 +242,11 @@ const TextWrapper = styled.nav`
     background: transparent;
     font-weight:bold;
     background: var(--mainGray) !important;
+  }
+  .img-thumbnail{
+    height:200px;
+    width:300px;
+
   }
   .text-contact {
     color: var(--lightCyan);

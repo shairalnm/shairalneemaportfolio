@@ -165,12 +165,12 @@ export default class Aboutme extends React.PureComponent {
                                       </div>
                                     </div>
 
-                                    <div class="col-sm-6 col-md-4 p-2">
+                                    <div class="col-6 col-md-4 p-2">
                                       <div class="thumbnail">
                                        
                                         <div className="card-caption text-center">
                                           <div class="caption">
-                                            <h3>E4 Carolinas</h3>
+                                            <h2>E4 Carolinas</h2>
                                           </div>
                                           </div>
                                           <div>
@@ -184,18 +184,40 @@ export default class Aboutme extends React.PureComponent {
                                               </ul>
                                             </p>
                                           </div>
-                                        
-                                        <p>
-                                          
-                                        </p>
-                                      </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-6 col-md-4 p-2">
+                                    <div class="col col-md-4 p-2">
                                       <div class="thumbnail">
-                                        
+                                        {/* Sheetalam */}
                                         <div className="card-caption text-center">
                                           <div class="caption">
-                                            <h3>Diaspark Private Limited</h3>
+                                            <h2>Sheetalam</h2>
+                                          </div>
+                                        </div>
+                                        <div>
+                                          <p>
+                                            <ul className="list-group list-group-flush text-color-dark">
+                                              <li className="list-group-item">Built an IOT based smart street light system to help the electricity problem in the area.</li>
+
+                                              <li className="list-group-item">
+                                              Developed the code using Arduino, Rasberry pi-3.
+                                              </li>
+                                              <li className="list-group-item">
+                                                Ensure strategies, standards, and architectures are consistent and integrated across IT domains
+                                              </li>
+                                            <li className="list-group-item">
+                                                Transform the logical details to actual physical code.
+                                            </li>
+                                            </ul>
+                                          </p>
+                                        </div>
+                                        </div></div>
+                                        {/* Diaspark pvt limited */}
+                                        <div class="col col-md-4 p-2">
+                                          <div class="thumbnail">
+                                        <div className="card-caption text-center">
+                                          <div class="caption">
+                                            <h2>Diaspark Private Limited</h2>
                                           </div>
                                         </div>
                                         <div>
