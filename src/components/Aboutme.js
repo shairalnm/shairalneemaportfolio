@@ -41,13 +41,11 @@ export default class Aboutme extends React.PureComponent {
 
                                 <div className="row">
                                   <div className="col">
-                                      
-                                      <img
+                                    <img
                                       src="../../img/shairal.jpg"
-                                          className=" img-style rounded mx-auto d-block "
+                                          className=" img-style img-fluid rounded mx-auto d-block "
                                       alt="Shairal Neema"
                                         />
-                                   
                                   </div> 
                                     
                                   <div className="col ">
@@ -244,7 +242,7 @@ export default class Aboutme extends React.PureComponent {
 
 const TextWrapper = styled.nav`
   
-  padding-left: 3em;
+  padding-left:0.3em;
   font-family: 'Gotu',sans-serif;
   background: var(--mainGray) !important;
   color:var(--mainWhite) !important;
@@ -283,10 +281,10 @@ const TextWrapper = styled.nav`
     color: var(--mainWhite);
   }
   .img-style{
-    height:350px;
+    height:auto;
     width:200px;
-background: transparent;
-border: no-border;
+    background: transparent;
+    border: no-border;
   }
 `;
 
