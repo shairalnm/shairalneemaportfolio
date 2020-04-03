@@ -15,29 +15,34 @@ export default class Introduction extends Component {
               Hello, I'm
               <span className=" text-title-name">Shairal Neema</span>
             </h1>
-            <div className=" container p-5 text-center tab-space">
+            </div><div className="row">
+            <div className="text-center">
               <h3>I'm a full-stack web developer</h3>
             </div>
           </div>
           {/* Button view my work */}
           <br />
+          <div className="row">
           <div className="btn">
             <Link to="/project">
               <ButtonContainer>
                 View my work
-                {/* <span class="glyphicon glyphicon-chevron-right" /> */}
+                
               </ButtonContainer>
             </Link>
           </div>
+        </div>
           {/* Know more about me */}
-          <br />
+          
+          <div className="row">
           <div className="btn">
             <Link to="/aboutme">
               <ButtonContainer>
                 Know more about me
-                {/* <span class="glyphicon glyphicon-chevron-right" /> */}
+                
               </ButtonContainer>
             </Link>
+          </div>
           </div>
         </div>
       </IntroWrapper>
