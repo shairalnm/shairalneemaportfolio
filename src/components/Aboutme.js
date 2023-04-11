@@ -92,62 +92,14 @@ export default class Aboutme extends React.PureComponent {
                                       <div className="col p-6 mt-5">
                                       <div className="text-justified text-center">
                                         <p className="font-size-content">
-                                          Accomplished graduate student with 1.5
-                                          years of industry software development
-                                          and engineering experience with
-                                          proficiency in .Net, Java and database
-                                          creation. Designed Web-based ASP.NET
-                                          Internet applications connected to SQL
-                                          databases. Enthusiastic to work
-                                          cohesively in diversified groups,
-                                          aiming a voluminous team output.
-                                        </p>
-                                      </div>
-                                    </div>
-                                </div>
-                                {/* Education */}
-                                  <div className="row p-5">
-                                    <div className="col">
-                                    <div className="text-center">
-                                      <div className="text-contact">
-                                        Education
-                                        <br />
-                                      </div>
-                                  </div>
-                                    </div>
-                                                                
-                                      <div class="col-sm-6 col-md-4 p-2">
-                                        <div class="thumbnail">
-                                          <img
-                                            src="../../img/UNCC.jpg"
-                                            className="img-fluid rounded mx-auto d-block col"
-                                            alt="UNCC"
-                                          />                                        
-                                        <div className="card-caption text-center">
-                                          <div class="caption">
-                                            <h3>University of North Carolina at Charlotte</h3>
-                                          </div>
-                                        </div>
-                                        <p className="text-color-dark">
-                                          Master's of Science in Information Technology
-                                        </p>
-                                        </div>
-                                      </div>
-                                      
-                                    <div class="col-sm-6 col-md-4 p-2 ">
-                                      <div class="thumbnail">
-                                        <img
-                                          src="../../img/MPSTME.jpg"
-                                          className="img-fluid rounded mx-auto d-block col-6"
-                                          alt="MPSTME"
-                                        />
-                                        <div className="card-caption text-center">
-                                        <div class="caption">
-                                          <h3>NMIMS's Mukesh Patel School of Technology, Management and Engineering</h3>
-                                        </div>
-                                        </div>
-                                        <p className="text-color-dark">
-                                          Bachelors of Technology in Computer Science
+                                        As a highly skilled software engineer with 4.5 years of experience in .NET technologies 
+                                        and extensive experience in Angular framework, I am proficient in building 
+                                        scalable and robust applications. My expertise in unit testing ensures 
+                                        the reliability and stability of software solutions. I am passionate 
+                                        about continuously learning and adapting to new technologies and methodologies, 
+                                        and thrive in collaborative environments. My objective is to utilize 
+                                        my technical skills and experience to drive the success of software development 
+                                        projects and contribute to the growth of the organization.
                                         </p>
                                       </div>
                                     </div>
@@ -232,6 +184,54 @@ export default class Aboutme extends React.PureComponent {
                                     </div>
                                   </div>
                                 {/*  */}
+                                {/* Education */}
+                                <div className="row p-5">
+                                    <div className="col">
+                                    <div className="text-center">
+                                      <div className="text-contact">
+                                        Education
+                                        <br />
+                                      </div>
+                                  </div>
+                                    </div>
+                                                                
+                                      <div class="col-sm-6 col-md-4 p-2">
+                                        <div class="thumbnail">
+                                          <img
+                                            src="../../img/UNCC.jpg"
+                                            className="img-fluid rounded mx-auto d-block col"
+                                            alt="UNCC"
+                                          />                                        
+                                        <div className="card-caption text-center">
+                                          <div class="caption">
+                                            <h3>University of North Carolina at Charlotte</h3>
+                                          </div>
+                                        </div>
+                                        <p className="text-color-dark">
+                                          Master's of Science in Information Technology
+                                        </p>
+                                        </div>
+                                      </div>
+                                      
+                                    <div class="col-sm-6 col-md-4 p-2 ">
+                                      <div class="thumbnail">
+                                        <img
+                                          src="../../img/MPSTME.jpg"
+                                          className="img-fluid rounded mx-auto d-block col-6"
+                                          alt="MPSTME"
+                                        />
+                                        <div className="card-caption text-center">
+                                        <div class="caption">
+                                          <h3>NMIMS's Mukesh Patel School of Technology, Management and Engineering</h3>
+                                        </div>
+                                        </div>
+                                        <p className="text-color-dark">
+                                          Bachelors of Technology in Computer Science
+                                        </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                
                               </div>
                             </div>
                           </TextWrapper>
